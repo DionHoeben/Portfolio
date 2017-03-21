@@ -1,0 +1,249 @@
+html, body{
+	background-image: url("../images/Whutsappframe.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    margin:0%;
+    padding:0%;
+    overflow:hidden;
+    background-color: #31634a;
+}
+
+@font-face {
+    font-family: Geometos;
+    src: url(../fonts/Geometos.ttf);
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+
+	.contactBox a{
+		height: 80px;
+		width: 250px;
+	}
+
+#whutsappBackground{
+	background-color: #7fbd98;
+}
+
+#eigenGegevens{
+	font-family: Geometos;
+	border-radius: 10px;
+	background-color: #e3dcd2;
+	height: 60px;
+	width: 265px;
+}
+
+#eigenPf{
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+	position: absolute;
+}
+
+#profileName{
+	position: absolute;
+	font-size: 12pt;
+	color: #999999;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+
+#logboek{
+	float:left;	
+	width: 265px;
+	margin-left: 235px;
+	margin-top:96px;
+}
+
+#container1{
+    height: 360px;
+    width: 265px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+	#container2{
+	    height: 360px;
+	    width: 265px;
+	    overflow: auto;
+	    padding-right: 0px; /* exact value is given in JavaScript code */
+	}
+
+#container3{
+	border-radius: 10px;
+    height: 445px;
+    width: 620px;
+    margin-top: 65px;
+    overflow: hidden;
+}
+
+	#container4{
+		font-family: arial;
+		background-color: #7fbd98;
+	    height: 445px;
+	    width: 620px;
+	    overflow: auto;
+	    padding-right: 0px; /* exact value is given in JavaScript code */
+	    padding-top: 5px;
+	}
+
+#contactList{
+	border-radius: 10px;
+	background-color: #e3dcd2;
+	height: 375px;
+	width: 265px;
+	padding-top:5px;
+	margin-top: 5px;
+}
+
+	.contactBox{	
+		background-color: #e3dcd2;            /*b6cfb9;*/   
+		border-bottom: 1px solid #aaa;
+		font-family: Geometos;
+		height: 80px;
+		width: 265px;
+	}
+
+		.contactPf{
+			float:left;
+			height: 40px;
+			width: 40px;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+
+			.contactName{
+				padding-top: 23px;
+				font-size: 12pt;
+				color: #999999;
+				margin-left: 70px;
+			}
+				.contactSubject{
+					font-family: verdana; 
+					margin-left: 70px;
+					font-size: 9pt; 
+					color: #999999;
+				}
+
+#chatFrame{
+	margin-top: 96px;
+	margin-left: 505px;
+}
+
+#whatsappHeader{
+	font-family: Geometos;
+	border-radius: 10px;
+	background-color: #e3dcd2;
+	width: 620px;
+	height: 60px;
+	position: absolute;
+	margin-bottom: 50px
+}
+
+	#chatPf{
+		background: #b6cfb9;
+		height: 40px;
+		width: 40px;
+		margin-top: 10px;
+		margin-left: 20px;
+		position: absolute;
+	}
+
+		.chatName{
+			position: absolute;
+			font-size: 24pt;
+			color: #999999;
+			margin-left: 70px;
+			margin-top: 10px;
+		}
+
+.rightChat{
+    border-radius: 25px 0px 25px 25px;
+	-moz-border-radius: 25px 0px 25px 25px;
+	-webkit-border-radius: 25px 0px 25px 25px;
+    background: #e3dcd2;
+    float:right;
+	padding-top: 10px;
+	padding-left: 10px;    
+	margin-left: 200px;
+	margin-bottom: 5px;
+}
+
+.leftChat{
+    border-radius: 0px 25px 25px 25px;
+	-moz-border-radius: 0px 25px 25px 25px;
+	-webkit-border-radius: 2px 25px 25px 25px;
+    background: #e3dcd2;
+    float:left;
+	padding-top: 10px;
+	padding-left: 10px;   
+	margin-right: 200px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+	.sender{
+		font-size: 9pt; 
+		color: #999999;
+	}
+
+		.date{
+			float: right;
+			margin-top: 20px;
+			margin-right: 17px;
+			font-size: 9pt; 
+			color: #999999;
+		}
+
+.videoLink{	
+	/*background-color: #b6cfb9; */           /*b6cfb9;*/   
+	font-family: Geometos;
+	padding: 5px;
+	margin-right: 10px;
+	width: 196px;
+}		
+
+	.videoThumbnail{
+		/*float:left;*/
+	}
+
+		.videoName{
+			font-size: 9pt;
+			color: #999999;
+		}
+
+			.videoSource{
+				font-family: verdana; 
+				font-size: 9pt; 
+				color: #999999;
+			}	
+
+#player{
+	border-radius: 10px;
+	border:none;
+	margin-left: 350px;
+	height: 445px;
+	width: 620px;
+}
+
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}script{display:none!important}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}a{background:transparent}a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}
+abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}
+pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,
+sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}
+figure{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,
+textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,
+html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],
+html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}

@@ -1,0 +1,122 @@
+html, body{
+    margin:0%;
+    padding:0%;
+    overflow:hidden;
+    /*background-color: #e3dcd2;*/
+}
+
+@font-face {
+    font-family: Geometos;
+    src: url(../fonts/Geometos.ttf);
+}
+
+.WhutsappBg {
+	background-color: #005B3A; 
+}
+
+#container3{
+	border-radius: 10px;
+    height: 380px;
+    width: 620px;
+    margin-top: 65px;
+    overflow: hidden;
+}
+
+#container4{
+	font-family: arial;
+	/*background-image: url("../images/whatsapp.jpg");*/
+	background-color: #7fbd98;
+    height: 380px;
+    width: 620px;
+    overflow: auto;
+    padding-right: 0px; /* exact value is given in JavaScript code */
+    padding-top: 5px;
+}
+
+#whatsappHeader{
+	font-family: Geometos;
+	border-radius: 10px;
+	background-color: #e3dcd2;
+	width: 620px;
+	height: 60px;
+	position: absolute;
+}
+
+#chatPf{
+	background: #b6cfb9;
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	margin-left: 20px;
+	position: absolute;
+}
+
+.chatName{
+	position: absolute;
+	font-size: 24pt;
+	color: #999999;
+	margin-left: 70px;
+	margin-top: 10px;
+}
+
+.rightChat{
+    border-radius: 25px 0px 25px 25px;
+	-moz-border-radius: 25px 0px 25px 25px;
+	-webkit-border-radius: 25px 0px 25px 25px;
+    background: #e3dcd2;
+    float:right;
+	padding-top: 10px;
+	padding-left: 10px;    
+	margin-left: 200px;
+	margin-bottom: 5px;
+}
+
+.leftChat{
+    border-radius: 0px 25px 25px 25px;
+	-moz-border-radius: 0px 25px 25px 25px;
+	-webkit-border-radius: 2px 25px 25px 25px;
+    background: #e3dcd2;
+    float:left;
+	padding-top: 10px;
+	padding-left: 10px;   
+	margin-right: 200px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.sender{
+	font-size: 9pt; 
+	color: #999999;
+}
+
+.date{
+	float: right;
+	margin-top: 20px;
+	margin-right: 17px;
+	font-size: 9pt; 
+	color: #999999;
+}
+
+
+
+.videoLink{	
+	background-color: #b6cfb9;            /*b6cfb9;*/   
+	font-family: Geometos;
+	padding: 5px;
+	margin-right: 10px;
+	width: 196px;
+}
+
+.chatThumbnail{
+	/*float:left;*/
+}
+
+.videoName{
+	font-size: 9pt;
+	color: #999999;
+}
+.videoSource{
+	font-family: verdana; 
+	font-size: 9pt; 
+	color: #999999;
+}
